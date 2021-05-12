@@ -1,0 +1,85 @@
+.container {
+  background: var(--Background);
+}
+@media screen and (max-width: 810px) {
+  .container {
+    padding: 20px;
+  }
+}
+
+.logo {
+  max-width: 700px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin: 0 auto;
+  padding: 80px 0 65px 0;
+}
+
+.section-container {
+  max-width: 700px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin: 0 auto;
+  margin-top: 48px;
+  flex-wrap: wrap;
+}
+
+.section-container a {
+  font-size: 28px;
+  font-family: Inter, sans-serif;
+  font-weight: bold;
+  color: var(--Heading);
+  cursor: pointer;
+}
+
+.section-container h1 {
+  font-size: 28px;
+  font-family: Inter, sans-serif;
+  font-weight: bold;
+  color: var(--Heading);
+  cursor: pointer;
+}
+
+.section-container p {
+  font-size: 18px;
+  font-family: Inter, sans-serif;
+  font-weight: Regular;
+  color: var(--Body);
+  margin-top: 5px;
+}
+
+.item {
+  max-width: 263px;
+  height: 20px;
+  display: flex;
+  gap: 15px;
+  margin-top: 20px;
+  color: var(--Info);
+  font-size: 14px;
+  font-family: Inter, sans-serif;
+  font-weight: Regular;
+}
+
+.item span i {
+  margin-right: 5px;
+}
+
+footer {
+  padding: 64px 0 80px 0;
+  max-width: 700px;
+  margin: 0 auto;
+  font-size: 18px;
+  font-family: Inter, sans-serif;
+  font-weight: semibold;
+  color: var(--Highlight);
+  flex-wrap: wrap;
+}
+
+@media screen and (max-width: 710px) {
+footer {
+    padding: 40px 20px 40px 20px;
+  }
+}

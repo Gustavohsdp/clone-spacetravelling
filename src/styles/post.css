@@ -1,0 +1,161 @@
+.header-content {
+  width: 100%;
+  background: var(--Background);
+}
+
+.header-content header {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  max-width: 750px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  padding: 23px 0 23px 0;
+}
+
+.banner {
+  width: 100%;
+}
+
+.banner img {
+  width: 100%;
+}
+
+.section-container {
+  max-width: 750px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin: 0 auto;
+  margin-top: 48px;
+  flex-wrap: wrap;
+}
+
+.section-container h1 {
+  font-size: 48px;
+  font-family: Inter, sans-serif;
+  font-weight: bold;
+  color: var(--Heading);
+}
+
+.section-container p {
+  font-size: 18px;
+  font-family: Inter, sans-serif;
+  font-weight: Regular;
+  color: var(--Body);
+  margin-top: 5px;
+}
+
+.item {
+  max-width: 357px;
+  height: 20px;
+  display: flex;
+  gap: 15px;
+  margin-top: 20px;
+  color: var(--Info);
+  font-size: 14px;
+  font-family: Inter, sans-serif;
+  font-weight: Regular;
+}
+
+.item span i {
+  margin-right: 5px;
+}
+
+.content {
+  max-width: 750px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin: 0 auto;
+  margin-top: 48px;
+  flex-wrap: wrap;
+}
+
+.content h1 {
+  font-size: 36px;
+  font-family: Inter, sans-serif;
+  font-weight: bold;
+  color: var(--Heading);
+}
+
+.text {
+  font-size: 18px;
+  font-family: Inter, sans-serif;
+  font-weight: Regular;
+  color: var(--Body);
+  margin-top: 50px;
+  line-height: 20px;
+}
+
+.p2 {
+  margin-top: 20px;
+}
+
+.p3 {
+  margin-top: 20px;
+}
+
+.content-1 {
+  max-width: 750px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin: 0 auto;
+  margin-top: 48px;
+  flex-wrap: wrap;
+}
+
+.content-1 h1 {
+  font-size: 36px;
+  font-family: Inter, sans-serif;
+  font-weight: bold;
+  color: var(--Heading);
+}
+
+.paragraph {
+  font-size: 18px;
+  margin-top: 48px;
+}
+
+.paragraph p {
+  font-family: Inter, sans-serif;
+  font-weight: Regular;
+  color: var(--Body);
+  line-height: 25px;
+  margin-top: 25px;
+}
+.p2 text {
+  color: var(--Highlight);
+}
+
+.paragraph li {
+  font-family: Inter, sans-serif;
+  font-weight: Regular;
+  color: var(--Body);
+  line-height: 25px;
+  margin-top: 25px;
+  list-style: none;
+  display: flex;
+  align-items: flex-start;
+  position: relative;
+}
+
+.paragraph li::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 10px;
+  left: -20px;
+  width: 6px;
+  height: 6px;
+  background: var(--Heading);
+  border-radius: 50%;
+}
+
+.p8 {
+  margin-bottom: 90px;
+}
